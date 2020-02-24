@@ -1,6 +1,5 @@
-﻿
+﻿using GraphQL.Types;
 
-using GraphQL.Types;
 namespace Sitecore.Support.Services.GraphQL.Content.Queries
 {
 
@@ -15,11 +14,9 @@ namespace Sitecore.Support.Services.GraphQL.Content.Queries
     using Sitecore.Services.GraphQL.Content;
     using Sitecore.Services.GraphQL.Content.GraphTypes;
     using Sitecore.Services.GraphQL.Content.GraphTypes.ContentSearch;
-    using Sitecore.Services.GraphQL.Content.Queries;
     using Sitecore.Services.GraphQL.GraphTypes.Connections;
     using Sitecore.Services.GraphQL.Schemas;
     using System.Collections.Generic;
-    using Sitecore.Diagnostics;
     using System.Linq;
 
 
